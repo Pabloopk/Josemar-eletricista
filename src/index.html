@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/logoicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link href="./output.css" rel="stylesheet">
+  <title>Josemar Eletricista</title>
+</head>
+<body class="w-full h-screen bg-[url('assets/img/backimg.png')] bg-cover bg-center bg-fixed">
+    <!--~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~-->
+    
+    <header id="navbar" class="bg-blue-950/80 fixed w-full top-0 z-50">
+        <nav class="container flex items-center justify-between h-16 sm:h-20">
+         
+          <div class="w-16 rounded-full">
+            <img src="assets/img/logojosemar (1).png" alt="img_eu" class="rounded-full">
+          </div>
+
+          <div id="nav-menu" class="absolute 
+          top-0 
+          left-[-100%]
+          min-h-[80vh]
+          w-full
+          bg-blue-950/80 backdrop-blur-sm
+          flex items-center
+          justify-center
+          duration-300
+          overflow-hidden
+          lg:static
+          lg:min-h-fit
+          lg:bg-transparent
+          lg:w-auto
+          ">
+            <ul class="flex flex-col 
+            items-center 
+            gap-8 
+            lg:flex-row
+            ">
+              <li><a href="#home" class="nav-link active">Início</a></li>
+              <li><a href="#about" class="nav-link">Sobre</a></li>
+              <li><a href="#popular" class="nav-link">Serviços</a></li>
+              <li><a href="#review" class="nav-link">Projetos</a></li>
+            </ul>
+
+            <div class="absolute bottom-0 -right-10 opacity-90 lg:hidden">
+              <img src="assets/img/raios.png" alt="leaf_image" class="w-32">
+            </div>
+
+            <div class="absolute -top-5 -left-5 rotate-90 opacity-90 lg:hidden">
+              <img src="assets/img/raios.png" alt="leaf_image" class="w-32">
+            </div>
+            
+            
+          </div>
+          <div class="text-xl sm:text-4xl cursor-pointer z-50 lg:hidden">
+              <i class="ri-menu-4-line " id="hamburger"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
+        <section id="home" class="relative">
+          <div class="container">
+            <!--blob 1-->
+            <div class="w-64 h-64
+             bg-blue-700 
+             rounded-full blur-3xl 
+             -z-10 
+             opacity-40 absolute
+            top-1/2 left-1/2 
+            transform 
+            -translate-x-1/2 
+            -translate-y-1/2">
+            </div>
+
+              <!--blob 1-->
+            <div class="w-64 h-64
+             bg-blue-700 
+             rounded-full blur-3xl 
+             -z-10 
+             opacity-40 absolute
+           right-0 bottom-0
+            
+            ">
+            </div>
+            
+            
+            <div class="flex flex-col items-center gap-5 lg:flex-row">
+              <!--CONTENT-->
+              <div class="home__data w-full space-y-5 lg:w-1/2">
+                <h1 class="text-3xl md:text-4xl xl:text-5xl font-bold">
+                  <span class="text-blue-700">Josemar</span> 
+                          Eletricista <br>
+                  
+                </h1>
+                <h1 class="text-3xl md:text-4xl xl:text-5xl font-bold"></h1>
+                    Eletricista<span class="text-blue-500"> Residencial</span> 
+                </h1>
+
+                <p class="text-slate-300 font-normal">
+                  Contratar um eletricista qualificado é fundamental para garantir a segurança e a eficiência em qualquer projeto que envolva instalações elétricas.
+                </p>
+
+                <div class="flex flex-col gap-2 sm:flex-row  md:gap-4 lg:pt-4 xl:pt-8">
+                  <div class="flex items-center gap-5 text-lg lg:pt-10">
+                  <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill text-green-400 text-7xl hover:text-blue-500 cursor-pointer duration-300"></i></a>
+                  <a href="https://www.instagram.com/josemar_eletri/" target="_blank"><i class="ri-instagram-line text-purple-500 text-7xl hover:text-blue-500 cursor-pointer duration-300"></i></a>
+                 
+                </div>
+                </div>
+                <P>
+                  Entre em contato para orçamentos!
+                </P>
+                
+              </div>
+              <!--image-->
+                <div class="w-full relative lg:w-1/3">
+                  <img src="assets/img/eu.jpg" alt="home_image" class="home__image rounded-full">
+                  <!--leaf-->
+                  <div class="absolute -top-10 right-0 opacity-30  xl:top-5
+                  animate-movingY">
+                    <i class="ri-tools-fill text-6xl text-blue-500"></i>
+                  </div>
+                  <!--flower-->
+                  <div class="absolute bottom-0 left-0 opacity-30 xl:bottom-12 
+                  animate-rotating
+                  ">
+                    <i class="ri-hammer-fill text-6xl text-blue-500"></i>
+                  </div>
+                  <!--plant-->
+                  <div class="hidden absolute -top-8 -left-5 opacity-30 lg:block animate-scalingUP">
+                    <i class="fa-solid fa-bolt text-6xl text-blue-500"></i>
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ Services ~~~~~~~~~~~~~~~-->
+        
+          <div class="bg-white text-blue-900 py-20">
+            <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <!--card1-->
+              <div class="service__card border border-blue-900 p-5 rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+                <div class="flex items-center gap-5">
+                  <i class="ri-service-line text-3xl md:text-4xl xl:text-5xl"></i>
+                  <p class="md:text-lg font-bold">
+                    Serviços <br>
+                    de Qualidade
+                  </p>
+                </div>
+                <p class="font-Montserrat">
+                  Um eletricista que faz um serviço de qualidade começa avaliando cuidadosamente o local e identificando as necessidades do cliente.
+                 </p>
+              </div>
+
+              <!--card 2-->
+              <div class="service__card border border-blue-900 p-5
+               rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+                <div class="flex items-center gap-5">
+                  <i class="fa-solid fa-triangle-exclamation  text-3xl md:text-4xl xl:text-5xl"></i>
+                  <p class="md:text-lg font-bold">
+                    Riscos <br> de
+                    Choque
+                  </p>
+                </div>
+                <p class="font-Montserrat">
+                  Caso haja a necessidade de mexer na rede elétrica, é sempre recomendável consultar um profissional qualificado para evitar riscos desnecessários.
+                  </p>
+              </div>
+
+              <!--card 3-->
+              <div class="service__card border border-blue-900 p-5 rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+                <div class="flex items-center gap-5">
+                  <i class="ri-plant-line text-3xl md:text-4xl xl:text-5xl"></i>
+                  <p class="md:text-lg font-bold">
+                    Meio <br>
+                    Ambiente
+                  </p>
+                </div>
+                <p class="font-Montserrat">
+                  O trabalho de um eletricista pode estar diretamente relacionado ao meio ambiente de diversas maneiras, principalmente quando se adota uma abordagem sustentável.
+                 </p>
+              </div>
+
+              <!--card4 -->
+              <div class="service__card border border-blue-900 p-5 rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5">
+                <div class="flex items-center gap-5">
+                  <i class="ri-map-pin-line text-3xl md:text-4xl xl:text-5xl"></i>
+                  <p class="md:text-lg font-bold">
+                    Serviços<br>
+                    em Brasília-DF
+                  </p>
+                </div>
+                <p class="font-Montserrat">
+                 Os eletricistas residenciais na capital são responsáveis por uma variedade de serviços, desde a instalação de redes elétricas em novas construções até a manutenção e reparos em sistemas já existentes.
+                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--~~~~~~~~~~~~~~~ About us ~~~~~~~~~~~~~~~-->
+        <section id="about" class="relative overflow-hidden bg-black">
+
+          <div class=" about__leaf absolute -top-8 -right-12 opacity-50">
+            <img src="assets/img/raios.png" alt="leaf_image" class="w-40 md:w-52 xl:w-64">
+          </div>
+
+          <div class="about__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+            <h2 class="title">Sobre</h2>
+            <p class="max-w-2xl">Entre em contato para orçamentos!</p>
+          </div>
+          <div class="container space-y-10 xl:space-y-0">
+            <!--Item 1-->
+            <div class="flex flex-col items-center lg:flex-row gap-5">
+              <!--imagem-->
+              <div class="about__item__1-img w-full lg:w-1/2 mb-10">
+                <img src="assets/img/eu.png" alt="about_image" class="
+                border-2
+                rounded-full
+                w-full
+                sm:w-2/3
+                lg:w-full
+                xl:w-2/3
+                mx-auto
+                ">
+              </div>
+              <!--content-->
+              <div class="about__item__1-content w-full lg:w-1/2">
+                <div class="space-y-5">
+                  <h3>Importância de um<span class="text-blue-500"> Eletricista</span> </h3>
+                  <p class="text-slate-300 font-Montserrat">
+                    Contratar um eletricista qualificado é fundamental para garantir a segurança e a eficiência em qualquer projeto que envolva instalações elétricas. O trabalho elétrico pode ser extremamente perigoso, com riscos de choque elétrico, curtos-circuitos e até incêndios, se não for realizado corretamente. Um profissional capacitado possui o conhecimento e a experiência necessários para lidar com essas situações de maneira segura, minimizando os riscos de acidentes.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Item 2-->
+            <div class="flex flex-col items-center lg:flex-row-reverse gap-5">
+              <!--imagem-->
+              <div class="about__item__2-img w-full lg:w-1/2">
+                <img src="assets/img/dadad.jpg" alt="about_image" class="
+                border-2
+                rounded-full
+                w-full
+                sm:w-2/3
+                lg:w-full
+                xl:w-2/3
+                mx-auto
+                ">
+              </div>
+              <!--content-->
+              <div class="about__item__2-content w-full lg:w-1/2">
+                <div class="space-y-5">
+                  <h3>Serviços de 
+                      <span class="text-red-500">Alto Risco</span> 
+                      
+                  </h3>
+                  <p class="text-slate-300 font-Montserrat">
+                    Além disso, um eletricista experiente segue as normas técnicas e regulamentações específicas para garantir que todas as instalações estejam em conformidade com os padrões de segurança. Isso não só protege os ocupantes de um imóvel, mas também evita problemas legais que podem surgir de instalações inadequadas ou fora das normas.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ serviços ~~~~~~~~~~~~~~~-->
+
+        <section id="popular" class=" bg-blue-950">
+          <div class="popular__top flex flex-col items-center gap-3 text-center mb-40">
+            <h2 class="title">Serviços</h2>
+            <p class="max-w-2xl">Entre em contato para orçamentos!</p>
+          </div>
+          <div class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 
+          md:grid-cols-2
+          lg:grid-cols-3
+          xl:grid-cols-4
+          ">
+            <!--card 1-->
+            <div class="popular__card  bg-blue-900 p-10 pt-24 rounded-md relative">
+              <img src="assets/img/lustre.png" alt="popular_image" 
+              class="w-56 
+              rounded-md
+              absolute -top-5 left-1/2 
+              transform -translate-x-1/2 
+              -translate-y-1/2 
+              duration-500
+              ">
+
+              <p>Instalação</p>
+              <h3 class="text-blue-200">Lustre</h3>
+
+              <div class="flex items-center justify-between">
+
+                <p class="text-xl">Orçamento via
+
+                <button class=" px-2 py-1 rounded-sm text-xl">
+                  <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill text-green-500"></i></a>
+                </button>
+                
+                </p>
+              </div>
+
+            </div>
+             <!--card 1-->
+            <div class="popular__card  bg-blue-900 p-10 pt-24 rounded-md relative">
+              <img src="assets/img/inter.png" alt="popular_image" 
+              class="w-56 
+              rounded-md
+              absolute -top-5 left-1/2 
+              transform -translate-x-1/2 
+              -translate-y-1/2 
+              duration-500
+              ">
+
+              <p>Instalação</p>
+              <h3 class="text-blue-200">Interfone</h3>
+
+              <div class="flex items-center justify-between">
+
+                <p class="text-xl">Orçamento via
+
+                <button class=" px-2 py-1 rounded-sm text-xl">
+                  <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill text-green-500"></i></a>
+                </button>
+                </p>
+              </div>
+
+            </div>
+
+             <!--card x-->
+             <div class="popular__card  bg-blue-900 p-10 pt-24 rounded-md relative">
+              <img src="assets/img/ilumin.png" alt="popular_image" 
+              class="w-56 
+              rounded-md
+              absolute -top-5 left-1/2 
+              transform -translate-x-1/2 
+              -translate-y-1/2 
+              duration-500
+              ">
+
+              <p>Instalação</p>
+              <h3 class="text-blue-200">Iluminação em Geral</h3>
+
+              <div class="flex items-center justify-between">
+
+                <p class="text-xl">Orçamento via
+
+                <button class=" px-2 py-1 rounded-sm text-xl">
+                  <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill text-green-500"></i></a>
+                </button>
+                </p>
+              </div>
+
+            </div>
+
+            <!--mais um crad-->
+              <div class="popular__card  bg-blue-900 p-10 pt-24 rounded-md relative">
+              <img src="assets/img/cerca.png" alt="popular_image" 
+              class="w-56 
+              rounded-md
+              absolute -top-5 left-1/2 
+              transform -translate-x-1/2 
+              -translate-y-1/2 
+              duration-500
+              ">
+
+              <p>Instalação</p>
+              <h3 class="text-blue-200">Cerca Elétrica</h3>
+
+              <div class="flex items-center justify-between">
+
+                <p class="text-xl">Orçamento via
+
+                <button class=" px-2 py-1 rounded-sm text-xl">
+                  <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill text-green-500"></i></a>
+                </button>
+                </p>
+              </div>
+
+            </div>
+
+            <!--outro-->
+            <div class="popular__card  bg-blue-900 p-10 pt-24 rounded-md relative">
+              <img src="assets/img/quadro (1).png" alt="popular_image" 
+              class="w-56 
+              rounded-md
+              absolute -top-5 left-1/2 
+              transform -translate-x-1/2 
+              -translate-y-1/2 
+              duration-500
+              ">
+
+              <p>Instalação</p>
+              <h3 class="text-blue-200">Quadro de Energia</h3>
+
+              <div class="flex items-center justify-between">
+
+                <p class="text-xl">Orçamento via
+
+                <button class=" px-2 py-1 rounded-sm text-xl">
+                  <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill text-green-500"></i></a>
+                </button>
+                </p>
+              </div>
+
+            </div>
+            <!--card 2-->
+              <div class="popular__card  bg-blue-900 p-10 pt-24 rounded-md relative">
+              <img src="assets/img/Painel.png" alt="popular_image" 
+              class="w-56 
+              rounded-md
+              absolute -top-5 left-1/2 
+              transform -translate-x-1/2 
+              -translate-y-1/2 
+              duration-500
+              ">
+
+              <p>Instalação</p>
+              <h3 class="text-blue-200">Placa Solar</h3>
+
+              <div class="flex items-center justify-between">
+
+                <p class="text-xl">Orçamento via
+
+                <button class=" px-2 py-1 rounded-sm text-xl">
+                  <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill text-green-500"></i></a>
+                </button>
+                </p>
+              </div>
+
+            </div>
+
+
+            <!--card 3-->
+              <div class="popular__card  bg-blue-900 p-10 pt-24 rounded-md relative">
+              <img src="assets/img/fio.png" alt="popular_image" 
+              class="w-56 
+              rounded-md
+              absolute -top-5 left-1/2 
+              transform -translate-x-1/2 
+              -translate-y-1/2 
+              duration-500
+              ">
+
+              <p>Instalação</p>
+             <h3 class="text-blue-200">Fiações</h3>
+
+              <div class="flex items-center justify-between">
+
+                <p class="text-xl">Orçamento via
+
+                <button class=" px-2 py-1 rounded-sm text-xl">
+                  <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill text-green-500"></i></a>
+                </button>
+                </p>
+              </div>
+
+            </div>
+
+
+            <!--card 4-->
+              <div class="popular__card  bg-blue-900 p-10 pt-24 rounded-md relative">
+              <img src="assets/img/manu.png" alt="popular_image" 
+              class="w-56 
+              rounded-md
+              absolute -top-5 left-1/2 
+              transform -translate-x-1/2 
+              -translate-y-1/2 
+              duration-500
+              ">
+
+              <p>Serviço</p>
+              <h3 class="text-blue-200">Manutenção</h3>
+
+              <div class="flex items-center justify-between">
+
+                <p class="text-xl">Orçamento via
+
+                <button class=" px-2 py-1 rounded-sm text-xl">
+                 <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill text-green-500"></i></a>
+                </button>
+                </p>
+              </div>
+
+            </div>
+            </div>
+
+        <!--~~~~~~~~~~~~~~~ projetos~~~~~~~~~~~~~~~-->
+         <section id="review" class="relative mb-20 md:mb-28 overflow-hidden bg-black">
+
+          <div class="review__leaf absolute  -left-12 ">
+            <img src="assets/img/raios.png" alt="leaf_image" class="w-40
+            md:w-52 xl:w-64">
+          </div>
+            <div class="costumer__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+            <h2 class="title">Projetos</h2>
+            <p class="max-w-2xl">Entre em contato para orçamentos!</p>
+          </div>
+
+          <div class="review__swiper container">
+
+            <div class="swiper bg-blue-950">
+
+              <ul class="swiper-wrapper ">
+
+                <li class="swiper-slide">
+
+                  <div class="flex flex-col 
+                  rounded-md p-6 md:p-7 lg:p-7
+                  ">
+                    
+                      <img src="assets/img/slide1.jpg" alt="Imagem_project" class="flex justify-center w-64 h-auto " >
+                    
+                  </div>
+                </li>
+
+                <!--slide fotos-->
+                <li class="swiper-slide">
+
+                  <div class="flex flex-col 
+                  rounded-md p-6 md:p-7 lg:p-7
+                  ">
+                    
+                      <img src="assets/img/slide2.jpg" alt="Imagem_project" class="flex justify-center w-64 h-auto " >
+                    
+                  </div>
+                </li>
+
+                 <!--slide fotos-->
+                 <li class="swiper-slide">
+
+                  <div class="flex flex-col 
+                  rounded-md p-6 md:p-7 lg:p-7
+                  ">
+                    
+                      <img src="assets/img/slide3.jpg" alt="Imagem_project" class="flex justify-center w-64 h-auto " >
+                    
+                  </div>
+                </li>
+                  <!--slide fotos-->
+                  <li class="swiper-slide">
+
+                  <div class="flex flex-col 
+                  rounded-md p-6 md:p-7 lg:p-7
+                  ">
+                    
+                      <img src="assets/img/slide4.jpg" alt="Imagem_project" class="flex justify-center w-64 h-auto " >
+                    
+                  </div>
+                </li>
+                   <!--slide fotos-->
+                  <li class="swiper-slide">
+
+                  <div class="flex flex-col 
+                  rounded-md p-6 md:p-7 lg:p-7
+                  ">
+                    
+                      <img src="assets/img/slide5.jpg" alt="Imagem_project" class="flex justify-center w-64 h-auto " >
+                    
+                  </div>
+                </li>
+
+                <li class="swiper-slide">
+
+                  <div class="flex flex-col 
+                  rounded-md p-6 md:p-7 lg:p-7
+                  ">
+                    
+                      <img src="assets/img/slide6.jpg" alt="Imagem_project" class="flex justify-center w-64 h-auto " >
+                    
+                  </div>
+                </li>
+                     
+                
+              </ul>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+        </section>
+
+        <!--^^^^^^^^review^~~~~~~~~~~~~~-->
+         
+    </main>
+
+    <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
+    <footer class="bg-blue-100 text-green-950 pt-10  md:pt-10 relative flex-col justify-center">
+        <!-- newsletter -->
+        
+        <!-- social icon -->
+        <div class="footer__icon container  mb-10">
+          <div class="border-b border-blue-500 relative">
+            <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36
+            mx-auto
+            ">
+              <div class="bg-blue-100 text-lg text-center rounded-full mb-10 space-x-2">
+                
+                  <img src="assets/img/logojosemar (1).png" alt="img_eu" class="rounded-full">
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content -->
+        <div class="footer__content container grid grid-cols-1 
+          text-center md:text-start
+          ">
+          <!--item1-->
+            <div>
+              <div class=" text-blue-900 flex justify-center">
+                
+                <p class="font-Montserrat text-xl sm:text-2xl">Josemar Eletricista</p>
+              </div>
+            </div>
+        
+
+        <!--item 2-->
+          <div>
+            <p class="mb-5 font-bold text-xl flex justify-center">Localização</p>
+
+            <div class=" flex justify-center">
+              
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245795.84084597178!2d-48.102515104083736!3d-15.72148676409806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3d18df9ae275%3A0x738470e469754a24!2zQnJhc8OtbGlhLCBERg!5e0!3m2!1spt-BR!2sbr!4v1727683499820!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <!--item 3-->
+          
+
+            <!--item 4-->
+          <div class="mt-7">
+            <p class=" mb-5 font-bold flex justify-center text-xl">Contato</p>
+
+            <div class=" flex justify-center">
+               <a href="https://wa.me/5561999099115" target="_blank"><i class="ri-whatsapp-fill hover:text-blue-500 duration-300 cursor-pointer" ></i>(61) 9 99099115</a>
+              
+            </div>
+            <div class=" flex justify-center">
+               <a href="https://wa.me/5561996450018" target="_blank"><i class="ri-whatsapp-fill hover:text-blue-500 duration-300 cursor-pointer" ></i>(61) 9 96450018</a>
+              
+            </div>
+            <div class=" flex justify-center mt-3">
+               <a href="https://www.instagram.com/josemar_eletri/" target="_blank"><i class="ri-instagram-fill hover:text-blue-500 duration-300 cursor-pointer" ></i>Instagram</a>
+              
+            </div>
+          </div>
+
+
+      </div>  
+        <!-- copyright -->
+      <div class="copy__right container">
+        <p class="text-center mt-10 opacity-50">
+          Copyright &copy; 2024 <a href="https://github.com/Pabloopk" target="_blank">Pablo Nunes </a>. Todos os direitos reservados.
+        </p>
+      </div>
+        <!-- floral image -->
+        <div class="absolute bottom-0 left-0 opacity-20 pointer-events-none">
+          <img src="assets/img/raios.png" alt="floral_imagem" class="w-full lg:w-1/2">
+        </div>
+    </footer>
+
+    <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
+      <a href="#" class="fixed right-4 -bottom-1/2 bg-blue-500 shadow-sm inline-block px-3 py-1 md:px-4
+      md:py-2 rounded-md text-lg z-50 hover:translate-y-1 duration-300
+       " id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+      </a>
+     
+    <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+    <!--~~~~~~~~~~ mainjs ~~~~~~~~~~-->
+    <script src="main.js"></script>
+</body>
+</html>
